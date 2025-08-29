@@ -1,0 +1,2 @@
+keyboard.Send=Send
+keyboard.Close=Close

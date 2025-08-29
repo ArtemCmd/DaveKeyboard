@@ -1,0 +1,111 @@
+<container size='860, 260' z-index='999' color='#222121FF'>
+    <image pos='5, 5' size='845, 215' src='gui/keyboard'/>
+    <button pos='5, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:escape")'/>
+    <button pos='81, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f1")'/>
+    <button pos='118, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f2")'/>
+    <button pos='156, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f3")'/>
+    <button pos='194, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f4")'/>
+    <button pos='251, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f5")'/>
+    <button pos='288, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f6")'/>
+    <button pos='326, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f7")'/>
+    <button pos='364, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f8")'/>
+    <button pos='421, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f9")'/>
+    <button pos='458, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f10")'/>
+    <button pos='495, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f11")'/>
+    <button pos='534, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f12")'/>
+    <button pos='578, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:print-screen")'/>
+    <button id='button_scroll_lock' pos='616, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='switch_key("key:scroll-lock", "button_scroll_lock")'/>
+    <button pos='654, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:end")'/>
+    <button pos='814, 5' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-minus")'/>
+    <button pos='5, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:grave-accent")'/>
+    <button pos='43, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:1")'/>
+    <button pos='81, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:2")'/>
+    <button pos='118, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:3")'/>
+    <button pos='156, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:4")'/>
+    <button pos='194, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:5")'/>
+    <button pos='232, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:6")'/>
+    <button pos='269, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:7")'/>
+    <button pos='307, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:8")'/>
+    <button pos='345, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:9")'/>
+    <button pos='383, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:0")'/>
+    <button pos='421, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:minus")'/>
+    <button pos='458, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:equal")'/>
+    <button pos='495, 40' size='75, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:backspace")'/>
+    <button pos='578, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:insert")'/>
+    <button pos='616, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:home")'/>
+    <button pos='654, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:page-up")'/>
+    <button id='button_numlock' pos='699, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='switch_key("key:numlock", "button_numlock")'/>
+    <button pos='736, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-divide")'/>
+    <button pos='774, 40' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-multiply")'/>
+    <button pos='814, 40' size='36, 107' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-add")'/>
+    <button pos='5, 77' size='56, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:tab")'/>
+    <button pos='62, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:q")'/>
+    <button pos='99, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:w")'/>
+    <button pos='137, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:e")'/>
+    <button pos='175, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:r")'/>
+    <button pos='213, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:t")'/>
+    <button pos='251, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:y")'/>
+    <button pos='288, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:u")'/>
+    <button pos='326, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:i")'/>
+    <button pos='364, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:o")'/>
+    <button pos='402, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:p")'/>
+    <button pos='439, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:left-bracket")'/>
+    <button pos='477, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:right-bracket")'/>
+    <button pos='515, 77' size='55, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:backslash")'/>
+    <button pos='578, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:delete")'/>
+    <button pos='616, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:end")'/>
+    <button pos='654, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:page-down")'/>
+    <button pos='699, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-7")'/>
+    <button pos='736, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-8")'/>
+    <button pos='774, 77' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-9")'/>
+    <button id='button_caps_lock' pos='5, 113' size='74, 35' color='#00000000' hover-color='#0C1926BE' onclick='switch_key("key:caps-lock", "button_caps_lock")'/>
+    <button pos='81, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:a")'/>
+    <button pos='118, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:s")'/>
+    <button pos='156, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:d")'/>
+    <button pos='194, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:f")'/>
+    <button pos='232, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:g")'/>
+    <button pos='269, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:h")'/>
+    <button pos='307, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:j")'/>
+    <button pos='345, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:k")'/>
+    <button pos='383, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:l")'/>
+    <button pos='421, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:semicolon")'/>
+    <button pos='458, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:apostrophe")'/>
+    <button pos='495, 113' size='75, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:enter")'/>
+    <button pos='699, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-4")'/>
+    <button pos='736, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-5")'/>
+    <button pos='774, 113' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-6")'/>
+    <button id='button_lshift' pos='5, 149' size='93, 35' color='#00000000' hover-color='#0C1926BE' onclick='switch_key("key:left-shift", "button_lshift")'/>
+    <button pos='99, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:z")'/>
+    <button pos='137, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:x")'/>
+    <button pos='175, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:c")'/>
+    <button pos='213, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:v")'/>
+    <button pos='251, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:b")'/>
+    <button pos='288, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:n")'/>
+    <button pos='326, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:m")'/>
+    <button pos='364, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:comma")'/>
+    <button pos='402, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:period")'/>
+    <button pos='439, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:slash")'/>
+    <button id='button_rshift' pos='475, 149' size='95, 35' color='#00000000' hover-color='#0C1926BE' onclick='switch_key("key:right-shift", "button_rshift")'/>
+    <button pos='618, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:up")'/>
+    <button pos='699, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-1")'/>
+    <button pos='736, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-2")'/>
+    <button pos='774, 149' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-3")'/>
+    <button id='button_lctrl' pos='5, 185' size='45, 35' color='#00000000' hover-color='#0C1926BE' onclick='switch_key("key:left-ctrl", "button_lctrl")'/>
+    <button pos='52, 185' size='45, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:left-win")'/>
+    <button id='button_lalt' pos='98, 185' size='46, 35' color='#00000000' hover-color='#0C1926BE' onclick='switch_key("key:left-alt", "button_lalt")'/>
+    <button pos='146, 185' size='234, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:space")'/>
+    <button id='button_ralt' pos='383, 185' size='45, 35' color='#00000000' hover-color='#0C1926BE' onclick='switch_key("key:right-alt", "button_ralt")'/>
+    <button pos='430, 185' size='45, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:right-win")'/>
+    <button pos='477, 185' size='45, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:menu")'/>
+    <button id='button_rctrl' pos='524, 185' size='45, 35' color='#00000000' hover-color='#0C1926BE' onclick='switch_key("key:right-ctrl", "button_rctrl")'/>
+    <button pos='580, 185' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:left")'/>
+    <button pos='618, 185' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:down")'/>
+    <button pos='655, 185' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:right")'/>
+    <button pos='699, 185' size='73, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-0")'/>
+    <button pos='774, 185' size='36, 35' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:delete")'/>
+    <button pos='814, 149' size='36, 71' color='#00000000' hover-color='#0C1926BE' onclick='press_key("key:kp-enter")'/>
+
+    <textbox id='clipboard' pos='5, 225' size='564, 24' multiline='true' text-wrap='false' editable='true'/>
+    <button pos='580, 225' size='111, 24' onclick='send()'>@keyboard.Send</button>
+    <button pos='699, 225' size='151, 24' onclick='hud.close("dave_keyboard:keyboard")'>@keyboard.Close</button>
+</container>
