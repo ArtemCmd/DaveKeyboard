@@ -44,13 +44,13 @@ function send()
     clipboard.text = ""
 end
 
-function on_open(update_freq)
+function on_open()
     local keyboard = document.root
     local viewport = gui.get_viewport()
 
     if not initialized then
         initialized = true
-        keyboard:setInterval(update_freq or 100, update_keyboard)
+        keyboard:setInterval(100, update_keyboard)
     end
 
     input.add_callback("key:escape", function()

@@ -2,9 +2,9 @@
 On-Screen keyboard for [VoxelCore](https://github.com/MihailRis/voxelcore).
 # Usage
 ```lua
--- Show keyboard:
+-- Show keyboard
 hud.open_permanent("dave_keyboard:keyboard")
--- Hide keyboard:
+-- Hide keyboard
 hud.close("dave_keyboard:keyboard")
 
 events.on("dave_keyboard:keyboard.key_pressed", function(key)
