@@ -39,7 +39,6 @@ end
 
 function send()
     local clipboard = document.clipboard
-
     events.emit("dave_keyboard:keyboard.send_text", clipboard.text)
     clipboard.text = ""
 end
@@ -50,7 +49,7 @@ function on_open()
 
     if not initialized then
         initialized = true
-        keyboard:setInterval(100, update_keyboard)
+        keyboard:setInterval(1000 / 60, update_keyboard)
     end
 
     input.add_callback("key:escape", function()
