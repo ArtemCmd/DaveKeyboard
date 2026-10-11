@@ -14,4 +14,8 @@ end)
 events.on("dave_keyboard:keyboard.send_text", function(text)
     print("Text: " .. text .. "has been sent!")
 end)
+
+events.on("dave_keyboard:keyboard.close", function(text)
+    print("Keyboard closed!")
+end)
 ```
