@@ -63,4 +63,5 @@ end
 function on_close()
     document.clipboard.text = ""
     pressed = false
+    events.emit("dave_keyboard:keyboard.close")
 end
